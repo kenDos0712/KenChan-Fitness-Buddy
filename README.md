@@ -110,7 +110,7 @@ The server removes the characters `|`, `;`, and line breaks from user fields and
 
 **Requirements**
 - Java JDK 11 or newer (`java -version`)
-- Any IDE (IntelliJ IDEA / Eclipse / VS Code) or the command line
+- Any IDE (IntelliJ IDEA / Eclipse / VS Code / NetBeans) or the command line
 - No external dependencies (standard Java library only)
 
 **Compile**
@@ -141,17 +141,17 @@ For development on one machine, use `localhost` as the IP.
 
 ## 9. Screenshots
 
-Place images in `/screenshots` and update the links.
+Images are stored in the `/screenshots` folder.
 
 | Screen | Image |
 |--------|-------|
-| Welcome menu | `screenshots/01-menu.png` |
-| Host form | `screenshots/02-host.png` |
-| Join form | `screenshots/03-join.png` |
-| Chat with 3 clients | `screenshots/04-chat.png` |
-| Workout proposal dialog | `screenshots/05-propose.png` |
-| Workout Plan with RSVPs | `screenshots/06-workouts.png` |
-| Error recovery (server unavailable) | `screenshots/07-error.png` |
+| Welcome menu | ![Welcome menu](screenshots/01-menu.png) |
+| Host form | ![Host form](screenshots/02-host.png) |
+| Join form | ![Join form](screenshots/03-join.png) |
+| Chat with 3 clients | ![Chat with 3 clients](screenshots/04-chat.png) |
+| Workout proposal dialog | ![Workout proposal dialog](screenshots/05-propose.png) |
+| Workout Plan with RSVPs | ![Workout Plan with RSVPs](screenshots/06-workouts.png) |
+| Error recovery (server unavailable) | ![Connection failed error](screenshots/07-error.png) |
 
 ## 10. Test Results
 
@@ -199,4 +199,11 @@ ITAS1-Section-Surname1-Surname2/
 ├── FitnessClient.java
 ├── README.md
 └── screenshots/
+    ├── 01-menu.png
+    ├── 02-host.png
+    ├── 03-join.png
+    ├── 04-chat.png
+    ├── 05-propose.png
+    ├── 06-workouts.png
+    └── 07-error.png
 ```
